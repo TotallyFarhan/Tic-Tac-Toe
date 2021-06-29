@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.contained {
+    display: inline-block;
+}
+
+#vert1 {
+    flex-direction: column;
+}
+
+#vert2 {
+    flex-direction: column;
+}
+
+#vert3 {
+    flex-direction: column;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6 {
+    border-bottom: solid 2px black;
+}
+
+#box1, #box4, #box7, #box2, #box5, #box8 {
+    border-right: solid 2px black;
+}
+
+.box {
+    cursor: pointer;
+    margin: 0 auto;
+    font-size: 90px;
+    text-align: center;
+}
+
+#winner {
+    text-align: center;
+    font-size: 40px;
+    margin: 40px;
+}
+
+#header {
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+}
+
+#reset {
+    text-align: center;
+    margin: 20px;
+}
+
+#reset button {
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    background-color:#FF5252;
+}
+
+.x-score, .o-score, .draw {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+#scoreboard {
+    text-align: center;
+    font-family: "Work Sans", serif;
+}
